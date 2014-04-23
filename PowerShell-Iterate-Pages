@@ -1,0 +1,28 @@
+Function IteratePages()
+{
+[CMDLetBinding()]
+Param
+(
+  [String] $url,
+  [Int] $start,
+  [Int] $end
+)
+
+  Write-Host $url
+  Write-Host $start
+  Write-Host $end
+
+
+    for ($i=$start; $i -lt $end; $i++)
+    {
+        
+        Write-Host $i
+        $saveTo = 'C:\OUT\' + $i + '.txt'
+        Write-Host $saveTo
+        $retUrl = $url + $i
+        Write-Host $retUrl
+
+        Get-WebPage $retUrl > $saveTo
+    }
+
+}
