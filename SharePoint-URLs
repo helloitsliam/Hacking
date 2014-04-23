@@ -1,0 +1,142 @@
+Administrative
+inurl:"/_layouts/AdminRecycleBin.aspx"
+inurl:"/_layouts/bpcf.aspx"
+inurl:"/_layouts/create.aspx"
+inurl:"/_layouts/listfeed.aspx"
+inurl:"/_layouts/managefeatures.aspx"
+inurl:"/_layouts/mcontent.aspx"
+inurl:"/_layouts/mngsiteadmin.aspx"
+inurl:"/_layouts/mngsubwebs.aspx"
+inurl:"/_layouts/newsbweb.aspx"
+inurl:"/_layouts/PageSettings.aspx"
+inurl:"/_layouts/policy.aspx"
+inurl:"/_layouts/policyconfig.aspx"
+inurl:"/_layouts/policycts.aspx"
+inurl:"/_layouts/Policylist.aspx"
+inurl:"/_layouts/recyclebin.aspx"
+inurl:"/_layouts/settings.aspx"
+inurl:"/_layouts/sitemanager.aspx"
+inurl:"/_layouts/storman.aspx"
+inurl:"/_layouts/vsubwebs.aspx"
+inurl:"/_layouts/wrkmng.aspx"
+inurl:"_admin" inurl:"aspx"
+inurl:"admin/_layouts"
+
+Forms
+inurl:"/_layouts/listedit.aspx" filetype:aspx
+inurl:"/forms/allitems.aspx" filetype:aspx
+inurl:"/pages/forms/allitems.aspx"
+inurl:"Forms" inurl:"allitems.aspx" filetype:aspx
+inurl:"Forms" inurl:"dispform.aspx" filetype:aspx
+inurl:"Forms" inurl:"editform.aspx" filetype:aspx
+inurl:"Forms" inurl:"myitems.aspx" filetype:aspx
+inurl:"Forms" inurl:"newform.aspx" filetype:aspx
+inurl:lists inurl:allitems.aspx
+inurl:lists inurl:editform.aspx
+
+Galleries
+inurl:"/_catalogs/" inurl:forms
+inurl:"/_catalogs/lt/"
+inurl:"/_catalogs/masterpage"
+inurl:"/_catalogs/masterpage/forms/allitems.aspx"
+inurl:"/_catalogs/wp/"
+inurl:"/_catalogs/wp/forms/"
+inurl:"/_catalogs/wp/forms/allitems.aspx"
+inurl:"/_catalogs/wt/"
+inurl:"/_layouts/1033"
+inurl:"/_layouts/AreaTemplateSettings.aspx"
+inurl:"/_layouts/ChangeSiteMasterPage.aspx"
+inurl:"/_layouts/images/"
+inurl:"/_layouts/mngctype.aspx"
+inurl:"/_layouts/mngfield.aspx"
+inurl:"_catalogs/lt/forms/allitems.aspx"
+
+Help Pages
+inurl:"/_layouts/help.aspx" ext:aspx
+inurl:"_layouts/help.aspx" inurl:"cid0=" ext:aspx
+
+Lists
+inurl:"/_layouts/viewlsts.aspx"
+inurl:"/_layouts/mobile/mbllists.aspx" ext:aspx
+inurl:/_layouts/listedit.aspx"
+
+Login
+inurl:"/_Layouts" inurl:"authenticate.aspx" filetype:aspx
+inurl:"/_Layouts/authenticate.aspx" filetype:aspx
+inurl:"/pages/login.aspx"
+
+LookNFeel
+inurl:"/_layouts/areanavigationsettings.aspx"
+inurl:"/_layouts/AreaWelcomePage.aspx"
+inurl:"/_layouts/navoptions.aspx"
+inurl:"/_layouts/prjsetng.aspx"
+inurl:"/_layouts/quiklnch.aspx"
+inurl:"/_layouts/themeweb.aspx"
+inurl:"/_layouts/topnav.aspx"
+
+Other
+"all site content" site:.com filetype:aspx
+"view all site content" "sign in" "people and groups" filetype:aspx
+inanchor:"shared documents" inurl:"shared documents" inurl:"forms/"
+inanchor:"shared documents" inurl:"shared documents" inurl:"forms/" filetype:aspx
+intext:"this blog is powered by microsoft sharepoint server 2010"
+inurl:"/_layouts" inurl:"allitems.aspx"
+inurl:"/_Layouts" inurl:"RedirectPage.aspx" filetype:aspx
+inurl:"/_layouts/" filetype:aspx
+inurl:"/directory/_layouts/" filetype:aspx
+inurl:"/pages/default.aspx"
+
+UsersGroups
+inurl:"/_layouts" inurl:"useredit.aspx"
+inurl:"/_layouts/aclinv.aspx"
+inurl:"/_layouts/addrole.aspx"
+inurl:"/_layouts/associatedgroups.aspx"
+inurl:"/_layouts/editgrp.aspx"
+inurl:"/_layouts/editprms.aspx"
+inurl:"/_layouts/groups.aspx"
+inurl:"/_layouts/myinfo.aspx"
+inurl:"/_layouts/MyPage.aspx"
+inurl:"/_layouts/MyTasks.aspx"
+inurl:"/_layouts/newgrp.aspx"
+inurl:"/_layouts/people.aspx"
+inurl:"/_layouts/permsetup.aspx"
+inurl:"/_layouts/picker.aspx"
+inurl:"/_layouts/role.aspx"
+inurl:"/_layouts/user.aspx"
+inurl:"/_layouts/userdisp.aspx"
+inurl:"/_layouts/userdisp.aspx" filetype:aspx
+inurl:"/_layouts/useredit.aspx"
+inurl:"/_layouts/viewgrouppermissions.aspx"
+
+WebParts
+inurl:"/_layouts/NewDwp.aspx"
+inurl:"/_layouts/spcf.aspx"
+inurl:"/WPPrevw.aspx"
+
+WebServices
+intext:"http://schemas.microsoft.com/sharepoint/" filetype:asmx
+intext:"soapAction=" intext:"http://microsoft.com/webservices/OfficeServer/" filetype:asmx
+inurl:"/_vti_bin/alerts.asmx" filetype:asmx
+inurl:"/_vti_bin/copy.asmx" filetype:asmx
+inurl:"/_vti_bin/dspsts.asmx" filetype:asmx
+inurl:"/_vti_bin/forms.asmx" filetype:asmx
+inurl:"/_vti_bin/lists.asmx" filetype:asmx
+inurl:"/_vti_bin/people.asmx" filetype:asmx
+inurl:"/_vti_bin/Permissions.asmx" filetype:asmx
+inurl:"/_vti_bin/search.asmx" filetype:asmx
+inurl:"/_vti_bin/sitedata.asmx" filetype:asmx
+inurl:"/_vti_bin/sites.asmx" filetype:asmx
+inurl:"/_vti_bin/usergroup.asmx" filetype:asmx
+inurl:"/_vti_bin/versions.asmx" filetype:asmx
+inurl:"/_vti_bin/views.asmx" filetype:asmx
+inurl:"/_vti_bin/webpartpages.asmx" filetype:asmx
+inurl:"/_vti_bin/webs.asmx" filetype:asmx
+inurl:"/_vti_bin/spsdisco.aspx" filetype:aspx
+inurl:"/_vti_bin/SharepointEmailWS.asmx" filetype:asmx
+inurl:"/_vti_bin/BusinessDataCatalog.asmx" filetype:asmx
+inurl:"/_vti_bin/ExcelService.asmx" filetype:asmx
+inurl:"/_vti_bin/UserProfileService.asmx" filetype:asmx
+inurl:"/_vti_bin/spscrawl.asmx" filetype:asmx
+inurl:"/_vti_bin/AreaService.asmx" filetype:asmx
+inurl:"/_vti_bin/WebPartPages.asmx" filetype:asmx
+inurl:"/_vti_bin/spsearch.asmx" filetype:asmx
