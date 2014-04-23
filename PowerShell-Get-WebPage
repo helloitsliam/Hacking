@@ -1,0 +1,47 @@
+Function Get-WebPage
+{
+[CMDLetBinding()]
+Param
+(
+  [Parameter(mandatory=$true)] [String] $URL,
+  [System.Net.ICredentials] $Credentials,
+  [System.Net.IWebProxy] $WebProxy,
+  [System.Net.WebHeaderCollection] $Headers,
+  [String] $UserAgent
+)
+ 
+$webclient = New-Object Net.WebClient
+
+    if ($Credentials)
+    {
+            $webclient.credentials = $Credentials
+    }
+    if ($WebProxy)
+    {
+            $webclient.proxy = $WebProxy
+    }
+    if ($Headers)
+    {
+            $webclient.headers.add($Headers)
+    }
+    if ($UserAgent)
+    {
+            $webclient.headers["User-Agent"] = $UserAgent
+    }
+ 
+    $webclient.Encoding = [System.Text.Encoding]::UTF8
+ 
+    $result = $null
+
+    try
+    {
+            $result = $webclient.downloadstring($URL)
+    }
+    catch
+    {
+            throw $_
+    }
+ 
+    return $result
+ 
+}
